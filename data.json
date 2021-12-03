@@ -1,0 +1,18 @@
+{
+  "base_clip": {
+    "remote_path": "/home/debian/moviepy_project/",
+    "start": 0
+  },
+  "clip_1": {
+    "remote_path": "/home/debian/moviepy_project/",
+    "start": 5
+  },
+  "clip_2": {
+    "remote_path": "/home/debian/moviepy_project/",
+    "start": 10
+  },
+  "clip_3": {
+    "remote_path": "/home/debian/moviepy_project/",
+    "start": 15
+  }
+}
