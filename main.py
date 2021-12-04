@@ -13,10 +13,8 @@ def load_json(file):
         return json.load(f)
 
 
-d = "data.json"
-c = "config.json"
-data = load_json(d)
-config = load_json(c)
+data = load_json("./data.json")
+config = load_json("./config.json")
 clips = []
 
 if min([data[clip_id]["start"] for clip_id in data]) != 0:
