@@ -10,7 +10,6 @@ import json
 #ytb.download("https://www.youtube.com/watch?v=GJAMjCWO2TI")
 def load_json(file):
     with open(file, "r") as f:
-        global data
         return json.load(f)
 
 
